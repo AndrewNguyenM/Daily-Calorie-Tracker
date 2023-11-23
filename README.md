@@ -8,7 +8,7 @@ Tracks the remaining caloric allowance for the day.
 Saves user data for future reference.
 
 # Technologies Used
-Python 3.x
+Python 3.x,
 File handling in Python for data storage.
 
 # Installation and Setup
@@ -21,15 +21,7 @@ Upon starting the program, users are prompted to identify as a 'New' or 'Returni
 
 New users will go through the BMR and AMR calculation process.
 Returning users can enter their daily food intake to track their remaining calories.
-# Code Examples
-# Here are some snippets from the project:
-# Function to calculate BMR for females
-def women():
-    # Code to calculate female BMR...
 
-# Function to track daily food intake
-def food_tracker():
-    # Code to track food consumption...
 # How It Works
 The program calculates the BMR based on the Harris-Benedict equation.
 The AMR is calculated by multiplying the BMR with an activity factor.
