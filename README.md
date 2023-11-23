@@ -1,5 +1,46 @@
-# Passwords
-This project is used to showcase my skills in python.
-The way it works is that the user inputs to either view or add a password to a database
-The database stores the username and password and using the fernet library from python it encrpyts the password 
-When the user needs to view the password the password is then decrypted and shown for the user to see
+# Daily Calories Tracker
+The Daily Calories Tracker is a Python application designed to help users track their daily caloric intake. It calculates the Basal Metabolic Rate (BMR) and Active Metabolic Rate (AMR) based on user inputs such as gender, height, weight, age, and activity level. Users can then log their daily food intake to monitor their remaining caloric allowance.
+
+# Features
+Calculates BMR and AMR for both males and females.
+Allows users to input their daily food consumption in calories.
+Tracks the remaining caloric allowance for the day.
+Saves user data for future reference.
+
+# Technologies Used
+Python 3.x
+File handling in Python for data storage.
+
+# Installation and Setup
+To use the Daily Calories Tracker, follow these steps:
+Clone the repository to your local machine.
+Ensure Python 3.x is installed on your system.
+Run the script from your terminal or Python IDE.
+Usage
+Upon starting the program, users are prompted to identify as a 'New' or 'Returning' user.
+
+New users will go through the BMR and AMR calculation process.
+Returning users can enter their daily food intake to track their remaining calories.
+# Code Examples
+# Here are some snippets from the project:
+# Function to calculate BMR for females
+def women():
+    # Code to calculate female BMR...
+
+# Function to track daily food intake
+def food_tracker():
+    # Code to track food consumption...
+# How It Works
+The program calculates the BMR based on the Harris-Benedict equation.
+The AMR is calculated by multiplying the BMR with an activity factor.
+Daily food intake is subtracted from the AMR to give the remaining caloric allowance.
+
+
+# License
+This project is released under the MIT License.
+
+# Contact
+For any questions or collaboration, contact me at:
+
+Email: [nguye938@msu.edu]
+LinkedIn: [https://www.linkedin.com/in/andrew-nguyen03/]
